@@ -5,8 +5,8 @@ Signals
 .. module:: django.dispatch
    :synopsis: Signal dispatch
 
-Django includes a "signal dispatcher" which helps allow decoupled applications
-get notified when actions occur elsewhere in the framework. In a nutshell,
+Django includes a "signal dispatcher" which allows decoupled applications
+to get notified when actions occur elsewhere in the framework. In a nutshell,
 signals allow certain *senders* to notify a set of *receivers* that some action
 has taken place. They're especially useful when many pieces of code may be
 interested in the same events.
